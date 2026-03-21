@@ -17,8 +17,8 @@ export default function SecurityPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Security"
-        title="أمان كراكساب يبدأ من الحساب ويستمر عبر الدردشة والمجموعات والقنوات"
+        eyebrow="أمان البيانات"
+        title="أمان كراكساب يبدأ من الحساب ويمتد إلى الرسائل والمكالمات"
         description="يركّز كراكساب على أن يكون الأمان جزءًا من تجربة الاستخدام اليومية، لا صفحة مخفية أو إعدادًا معقدًا. لذلك تم دمج أدوات الحماية والإشعارات والخصوصية داخل النظام نفسه."
         icon="shield"
       />

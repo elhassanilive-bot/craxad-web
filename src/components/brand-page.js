@@ -107,20 +107,19 @@ export function PageHero({ eyebrow, title, description, icon = 'spark' }) {
   return (
     <section className="border-b border-slate-200/80">
       <div className="mx-auto max-w-6xl px-4 py-18 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+        <div dir="rtl" className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="text-right">
-            <p className="text-sm font-semibold uppercase tracking-[0.45em] text-cyan-700">{eyebrow}</p>
-            <h1 className="mt-4 text-5xl font-black leading-[1.15] text-slate-950 sm:text-6xl">{title}</h1>
+            <p className="text-sm font-semibold tracking-[0.18em] text-cyan-700">{eyebrow}</p>
+            <h1 className="mt-4 text-4xl font-black leading-[1.2] text-slate-950 sm:text-5xl">{title}</h1>
             <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{description}</p>
           </div>
 
           <div className="rounded-[34px] border border-white/80 bg-white/85 p-8 shadow-[0_18px_50px_rgba(15,23,42,0.06)]">
-            <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,#0f766e,#0284c7)] text-white shadow-lg shadow-cyan-500/20">
-              <BrandIcon name={icon} className="h-7 w-7" />
+            <div className="inline-flex text-cyan-800">
+              <BrandIcon name={icon} className="h-8 w-8" />
             </div>
             <p className="mt-5 text-sm leading-8 text-slate-600">
-              تم إعداد هذه الصفحة بصياغة خاصة لتطبيق كراكساب اعتمادًا على بنية التطبيق الفعلية: الدردشات، المجموعات،
-              القنوات، الأنشطة، المكالمات، والخصوصية.
+              ستجد هنا شرحًا واضحًا ومباشرًا يساعدك على فهم الصفحة والوصول بسرعة إلى المعلومات المهمة داخل كراكساب.
             </p>
           </div>
         </div>
@@ -131,11 +130,11 @@ export function PageHero({ eyebrow, title, description, icon = 'spark' }) {
 
 export function InfoGrid({ items, columns = 'md:grid-cols-2 xl:grid-cols-4' }) {
   return (
-    <div className={`grid gap-5 ${columns}`}>
+    <div dir="rtl" className={`grid gap-5 ${columns}`}>
       {items.map((item) => (
         <article key={item.title} className="rounded-[28px] border border-white/80 bg-white/85 p-6 text-right shadow-[0_16px_40px_rgba(15,23,42,0.05)]">
-          <div className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-cyan-800">
-            <BrandIcon name={item.icon} />
+          <div className="inline-flex text-cyan-800">
+            <BrandIcon name={item.icon} className="h-7 w-7" />
           </div>
           <h2 className="mt-4 text-xl font-black text-slate-950">{item.title}</h2>
           <p className="mt-3 text-sm leading-7 text-slate-600">{item.text}</p>
@@ -147,8 +146,8 @@ export function InfoGrid({ items, columns = 'md:grid-cols-2 xl:grid-cols-4' }) {
 
 export function SectionCard({ id, eyebrow, title, children }) {
   return (
-    <section id={id} className="scroll-mt-28 rounded-[32px] border border-white/80 bg-white/88 p-8 text-right shadow-[0_18px_50px_rgba(15,23,42,0.06)]">
-      {eyebrow ? <p className="text-sm font-semibold uppercase tracking-[0.4em] text-slate-400">{eyebrow}</p> : null}
+    <section dir="rtl" id={id} className="scroll-mt-28 rounded-[32px] border border-white/80 bg-white/88 p-8 text-right shadow-[0_18px_50px_rgba(15,23,42,0.06)]">
+      {eyebrow ? <p className="text-sm font-semibold tracking-[0.14em] text-slate-400">{eyebrow}</p> : null}
       <h2 className="mt-3 text-3xl font-black text-slate-950">{title}</h2>
       <div className="mt-5 space-y-4 text-base leading-8 text-slate-600">{children}</div>
     </section>
@@ -157,12 +156,9 @@ export function SectionCard({ id, eyebrow, title, children }) {
 
 export function BulletList({ items }) {
   return (
-    <ul className="space-y-3 text-slate-600">
+    <ul dir="rtl" className="list-disc space-y-3 pr-6 text-right text-slate-600 marker:text-cyan-600">
       {items.map((item) => (
-        <li key={item} className="flex items-start justify-end gap-3 text-right">
-          <span>{item}</span>
-          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-cyan-600" />
-        </li>
+        <li key={item} className="text-right">{item}</li>
       ))}
     </ul>
   );

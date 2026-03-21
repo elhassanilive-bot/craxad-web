@@ -17,8 +17,8 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Contact"
-        title="صفحة التواصل مع فريق كراكساب"
+        eyebrow="اتصل بنا"
+        title="التواصل مع فريق كراكساب"
         description="إذا كنت تحتاج دعمًا تقنيًا، تريد الإبلاغ عن مشكلة، أو تود مشاركة ملاحظة مهمة حول التطبيق، فهذه الصفحة هي المسار المباشر للوصول إلى الفريق."
         icon="mail"
       />

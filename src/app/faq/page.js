@@ -20,7 +20,7 @@ export default function FaqPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="FAQ"
+        eyebrow="الأسئلة الشائعة"
         title="أكثر الأسئلة الشائعة حول كراكساب"
         description="هذه الصفحة تختصر أهم ما يريد المستخدم معرفته بسرعة حول التسجيل، الرسائل، المجموعات، القنوات، المكالمات، والضبط الشخصي داخل التطبيق."
         icon="spark"

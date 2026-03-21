@@ -17,8 +17,8 @@ export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Privacy"
-        title="الخصوصية في كراكساب مبنية على التحكم الواضح لا على التعقيد"
+        eyebrow="الخصوصية"
+        title="الخصوصية في كراكساب تقوم على التحكم الواضح"
         description="هذه الصفحة تشرح كيف يفهم كراكساب الخصوصية: حق المستخدم في ضبط ظهور الحساب، إدارة الوصول إليه، والتحكم في المحادثات والملف الشخصي والإعدادات الحساسة."
         icon="lock"
       />

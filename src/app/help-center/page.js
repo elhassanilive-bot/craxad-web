@@ -17,8 +17,8 @@ export default function HelpCenterPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Help Center"
-        title="مركز المساعدة في كراكساب يركّز على المهام الحقيقية التي يقوم بها المستخدم يوميًا"
+        eyebrow="مركز المساعدة"
+        title="مركز المساعدة في كراكساب"
         description="بدل الشروحات العامة، تم بناء هذه الصفحة حول ما يفعله المستخدم فعلًا داخل التطبيق: التسجيل، الدردشة، إدارة المجموعات، متابعة الأنشطة، استخدام القنوات، وإجراء المكالمات."
         icon="settings"
       />

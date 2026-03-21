@@ -17,8 +17,8 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Terms"
-        title="شروط استخدام كراكساب تركّز على الاحترام، سلامة المجتمع، ووضوح المسؤولية"
+        eyebrow="الشروط والأحكام"
+        title="شروط استخدام كراكساب"
         description="عند استخدام كراكساب فأنت تستفيد من نظام يشمل الدردشات، المجموعات، القنوات، القصص، والمنشورات والمكالمات. لذلك نوضح هنا القواعد العامة التي تحكم هذا الاستخدام."
         icon="lock"
       />

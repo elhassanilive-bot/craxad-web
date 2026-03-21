@@ -17,8 +17,8 @@ export default function FeaturesPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Core Features"
-        title="كل ميزة في كراكساب مبنية حول فكرة واحدة: تواصل أسرع وتنظيم أوضح"
+        eyebrow="المزايا"
+        title="مزايا كراكساب الأساسية في مكان واحد"
         description="كراكساب لا يقدّم الدردشة فقط، بل يربط بين المحادثات، القنوات، القصص، المكالمات، وضبط الخصوصية في منتج واحد مناسب للاستخدام اليومي والمجتمعات."
         icon="channel"
       />

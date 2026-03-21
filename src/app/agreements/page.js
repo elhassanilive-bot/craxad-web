@@ -17,8 +17,8 @@ export default function AgreementsPage() {
   return (
     <div className="min-h-screen bg-transparent">
       <PageHero
-        eyebrow="Policies"
-        title="صفحة الاتفاقيات والسياسات هي الخريطة التي تنظّم كل ما يحدث داخل كراكساب"
+        eyebrow="الاتفاقيات والسياسات"
+        title="الاتفاقيات والسياسات في كراكساب"
         description="لأن كراكساب يجمع بين الدردشة الخاصة، المجموعات، القنوات، القصص، المنشورات، والمكالمات، فقد تم توزيع القواعد والسياسات بشكل واضح حتى يفهم المستخدم ما الذي يحكم كل جزء من التطبيق."
         icon="spark"
       />
