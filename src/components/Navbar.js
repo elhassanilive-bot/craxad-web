@@ -20,9 +20,9 @@ const links = [
     helper: 'حماية الحساب والبيانات',
   },
   {
-    href: '/blog',
-    label: 'التحديثات',
-    helper: 'أخبار المنصة والإطلاقات',
+    href: '/features#activity-features',
+    label: 'الأنشطة والقصص',
+    helper: 'القنوات والمنشورات اليومية',
   },
 ];
 

@@ -12,7 +12,7 @@ const communityLinks = [
   { href: '/features#activity-features', label: 'القنوات العامة' },
   { href: '/features#group-features', label: 'المجموعات والمجتمعات' },
   { href: '/help-center#daily-tasks', label: 'إدارة المشرفين' },
-  { href: '/blog', label: 'التحديثات والأخبار' },
+  { href: '/features#activity-features', label: 'القصص والمنشورات' },
 ];
 
 const trustLinks = [
