@@ -1,14 +1,14 @@
 export const downloadContent = {
   hero: {
-    title: 'حمّل تطبيق دريبدو الآن',
+    title: 'حمّل تطبيق كراكساب الآن',
     subtitle:
-      'منصة عربية حديثة تجمع النشر والرسائل والمجتمعات في تجربة واحدة واضحة وسريعة. اختر جهازك وابدأ التحميل فور توفر النسخة المناسبة.',
+      'منصة عربية حديثة تجمع الدردشة والقنوات والمجموعات والأنشطة في تجربة واحدة واضحة وسريعة. اختر جهازك وابدأ التحميل فور توفر النسخة المناسبة.',
     image: '/screenshots/dridoud-home.jpg',
   },
   links: {
-    android: 'https://play.google.com/store/apps/details?id=com.dribdo.app',
-    ios: 'https://apps.apple.com/app/dribdo/id0000000000',
-    apk: 'https://download.dribdo.com/releases/dribdo-latest.apk',
+    android: 'https://play.google.com/store/apps/details?id=com.craxad.app',
+    ios: 'https://apps.apple.com/app/craxad/id0000000000',
+    apk: 'https://download.craxad.com/releases/craxad-latest.apk',
   },
   versions: [],
   highlights: [
