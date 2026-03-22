@@ -1,0 +1,30 @@
+
+> dribdoweb@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.1.6 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.17.130:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 5.5s
+○ Compiling / ...
+ GET / 200 in 18.3s (compile: 15.4s, render: 2.9s)
+ GET / 200 in 19.1s (compile: 16.3s, render: 2.9s)
+ GET / 200 in 903ms (compile: 113ms, render: 790ms)
+○ Compiling /_not-found ...
+ GET /admin/blog 404 in 10.7s (compile: 8.6s, render: 2.2s)
+ GET / 200 in 1388ms (compile: 170ms, render: 1218ms)
+ GET / 200 in 1393ms (compile: 168ms, render: 1225ms)
+ GET / 200 in 1450ms (compile: 32ms, render: 1418ms)
+ GET / 200 in 912ms (compile: 63ms, render: 849ms)
+ GET /admin 404 in 641ms (compile: 31ms, render: 610ms)
+ GET /admin 404 in 1632ms (compile: 515ms, render: 1117ms)
+ GET /admin 404 in 990ms (compile: 66ms, render: 924ms)
+ GET / 200 in 2.1s (compile: 125ms, render: 2.0s)
+ GET / 200 in 2.1s (compile: 112ms, render: 2.0s)
+ GET / 200 in 1463ms (compile: 56ms, render: 1407ms)
+ GET / 200 in 1431ms (compile: 22ms, render: 1409ms)
+ GET / 200 in 468ms (compile: 25ms, render: 443ms)
+[?25h
