@@ -7,10 +7,8 @@ export const metadata = {
   metadataBase: new URL(site.url),
   applicationName: site.nameEn,
   icons: {
-    icon: [
-      { url: "/icon.png", type: "image/png" },
-      { url: "/favicon.ico", rel: "shortcut icon" },
-    ],
+    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+    shortcut: ["/favicon.ico"],
     apple: [{ url: "/icon.png", type: "image/png" }],
   },
   title: {
