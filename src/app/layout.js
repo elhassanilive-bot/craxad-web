@@ -6,6 +6,13 @@ import { site } from "@/config/site";
 export const metadata = {
   metadataBase: new URL(site.url),
   applicationName: site.nameEn,
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.ico", rel: "shortcut icon" },
+    ],
+    apple: [{ url: "/icon.png", type: "image/png" }],
+  },
   title: {
     default: `${site.name} | ${site.nameEn}`,
     template: `%s | ${site.name}`,
